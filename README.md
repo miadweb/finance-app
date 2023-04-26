@@ -1,4 +1,4 @@
-# finance-app
+# Finance app : Landing page
 
 Modern Finance home page template that supports light and dark theme built with tailwindcss using tailus blocks
 
