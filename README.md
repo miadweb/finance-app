@@ -1,6 +1,6 @@
 # Finance app : Landing page
 
-Modern Finance home page template that supports light and dark theme built with tailwindcss
+FREE Modern Finance home page template that supports light and dark theme, built with Tailwind CSS
 
 - [Modern Landing page].
 - [Light and Dark mode].
