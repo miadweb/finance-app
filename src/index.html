@@ -1,0 +1,493 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+ <script src="//unpkg.com/alpinejs" defer></script>
+</head>
+<body class="font-family: 'Inter', sans-serif   " >
+ <main class="w-full bg-white dark:bg-color-slate-800">
+   <section class=" bg-white dark:bg-color-slate-800 container  ">
+      <!---nav-->
+      <div class="flex flex-row gap-16  justify-between py-8 items-center">
+         <!--logo-->
+        <div class="">
+            <h1 class="lg:text-xxl text-xl  font-bold text-color-slate-800 dark:text-white"><span class="text-white bg-main px-1 lg:text-xxl text-xl ">M</span> Finance </h1>
+        </div>
+        <!--menu-->
+        <ul class="hidden lg:flex items-center space-x-5  text-color-slate-700 dark:text-white  ">
+           <li  class="text-main "><a href="#home" >Home</a></li>
+           <li  class="hover:text-main"><a href="#features" >Features</a></li>
+           <li  class="hover:text-main"><a href="#about" >About Us</a></li>
+           <li  class="hover:text-main"><a href="#services" >Services</a></li>
+           <li  class="hover:text-main"><a href="#faq" >FAQ</a></li>
+           <li  class="hover:text-main"><a href="#contact">Contact</a></li>
+        </ul>
+         <div class="flex gap-10 items-center ">
+         <!--btn-->
+         <a href="#contact" class="btn1 dark:shadow-white/10 hover:bg-blue-500">Register</a>
+        
+         <div class="flex gap-2 5">
+            <!--moon and sun-->
+         <div class="day-night text-end  text-blue-500 dark:text-white  ">  
+            <i class="moon fa-solid "></i>
+            <i class="sun fa-solid  "></i>
+         </div>
+   
+         <!-------responsive nav-------->
+           <!--hunburger icon-->
+        <div id="hamburger" class="lg:hidden cursor-pointer z-50 dark:text-white ">
+           <i class="responsive fa-solid fa-bars  "></i>
+        </div>
+         </div>
+         </div>
+
+         <!---creat a div than copy th ul --->
+         <div id="menu" class="hidden bg-white h-[100vh] absolute inset-0 items-center z-20">
+               <ul class="h-full grid place-items-center py-20">
+                  <li  class="text-main "><a href="#home" >Home</a></li>
+                  <li  class="hover:text-main"><a href="#features" >Features</a></li>
+                  <li  class="hover:text-main"><a href="#about" >About Us</a></li>
+                  <li  class="hover:text-main"><a href="#services" >Services</a></li>
+                  <li  class="hover:text-main"><a href="#faq" >FAQ</a></li>
+                  <li  class="hover:text-main"><a href="#contact">Contact</a></li>
+                  <!--btn-->
+                  <a href="" class="btn1 dark:shadow-white/10 hover:bg-blue-500">Register</a>
+               </ul>
+         </div>
+      </div>
+      
+      <!------------------Hero start------------------>
+      <div id="home" class="flex flex-col  lg:flex-row text-center lg:text-left  w-2/2 gap-10  justify-between items-center pb-16  pt-10">
+        <!----left side-->
+        <div class="lg:w-1/2 w-2/2 flex flex-col gap-10  items-center lg:items-start">
+           <h1 class="text-xxl font-bold text-color-slate-800 dark:text-white">Online accounting software for <span class="text-main">your small business</span> </h1>
+           <p class="text-base text-color-slate-500 dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere alias voluptate esse blanditiis molestiae repudiandae fugiat eius sapiente expedita ut.</p>
+            <!--hero btns-->
+           <div class="flex  gap-2 ">
+              <a href="#contact" class="btn1 dark:shadow-white/10 hover:bg-transparent dark:text-white hover:text-main border-2 border-main "> Free Trial</a>
+              <a href="#contact" class="btn2 dark:shadow-white/10 hover:bg-main hover:text-white dark:text-white">Payment plans</a>
+           </div>
+           <!--Hero logos-->
+           
+        </div>
+        <!----Right side img-->
+        <div class="items-center">
+           <img src="/images/finance.png" alt="" class=" w-[50rem]">
+        </div>
+      </div>
+   </section>
+   <!------------------Hero end------------------>
+   
+   
+   <!------------------feature start------------------>
+   
+   <section id="features"  class="flex flex-col  justify-between gap-5  py-16 container  items-center lg:items-start">
+     <!------title------>
+     <div class="flex flex-col gap-1  font-semibold">
+        <p class="text-base  text-main dark:text-slate-500">Our Features</p>
+        <h2 class="text-xl text-color-slate-700 dark:text-white ">Provide Our Features</h2>
+     </div>
+     <!----Feature items---->
+     <div class="w-full flex flex-col lg:flex-row  justify-between gap-10  ">
+           <!----left side img-->
+        <div class="lg:w-1/2 w-full">
+           <img src="/images/feature.webp" alt="" class="lg:w-[50rem] sm:w-[40rem] w-[30rem] rounded-lg bg-cover ">
+        </div>
+        <!----right side-->
+        
+           <div class="lg:w-1/2 w-full  flex flex-col text-center lg:text-start gap-10 items-center lg:items-start ">
+              <div class=" flex flex-col  gap-3">
+                 <p class="lg:text-base   text-color-slate-500 dark:text-white/70">From budgeting to accounting, M-Finance helps you track your finances accurately and effortlessly..</p>
+                 <p class="lg:text-base text-color-slate-500 dark:text-white/70">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint explicabo perferendis voluptatibus sunt enim officiis.</p>
+              </div>
+  
+              <div class="grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-3  items-center lg:items-start gap-5   ">
+                 <!-----feature 1-->
+                 <div class=" flex flex-col px-3   py-10  items-center  bg-white dark:bg-color-slate-800 shadow-md shadow-shadowcolor  dark:shadow-white/10  rounded-md gap-3  ">
+                 <img src="/images/icon1.png" alt="" class="w-16 ">
+                 <h3 class="text-base text-center text-color-slate-600 font-bold dark:text-white">Claim expenses</h3>
+                 <a href="" class="text-main text-sm dark:text-white">Learn more</a>
+                 </div>
+                 <!-----feature 2-->
+                 <div class=" flex flex-col px-3   py-10 items-center  bg-white dark:bg-color-slate-800 shadow-md shadow-shadowcolor  dark:shadow-white/10  rounded-md gap-3  ">
+                    <img src="/images/icon2.png" alt="" class="w-16 ">
+                    <h3 class="text-base  text-color-slate-600 font-bold dark:text-white">Bank connections</h3>
+                    <a href="" class="text-main text-sm dark:text-white">Learn more</a>
+                 </div>
+                 <!-----feature 3-->
+                 <div class=" flex flex-col px-3   py-10 items-center  bg-white dark:bg-color-slate-800 shadow-md shadow-shadowcolor  dark:shadow-white/10  rounded-md gap-3  ">
+                  <img src="/images/icon3.png" alt="" class="w-16 ">
+                  <h3 class="text-base  text-color-slate-600 font-bold dark:text-white">Integrated platform</h3>
+                  <a href="" class="text-main text-sm dark:text-white">Learn more</a>
+               </div>
+              </div>
+              <a href="" class="btn1 w-fit dark:shadow-white/10 hover:bg-blue-500">See more</a>   
+          </div>
+     </div>
+   </section>
+   <!------------------feature end------------------>
+
+  
+   <!------------------About us start------------------>
+  <section id="about" class="flex flex-col gap-5  py-16  container items-center lg:items-start ">
+     <!------title------>
+     <div class="flex flex-col gap-1 font-semibold lg:text-left text-center">
+        <p class="text-base  text-main dark:text-slate-500 ">About Us</p>
+        <h2 class="text-xl text-color-slate-700 dark:text-white">About our software</h2>
+     </div>
+     <!------about items------>
+     <div class="w-full flex flex-col  lg:flex-row gap-10 items-center">
+  
+      
+        <!-----left side---->
+        <div class="lg:w-1/2 w-full  flex flex-col gap-8 items-center lg:items-start">
+         <h2 class="text-xl text-color-slate-500 dark:text-white lg:text-left text-center">Built for small business owners like you</h2>
+           <p class="text-base text-color-slate-500 dark:text-white lg:text-left text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere corporis delectus commodi suscipit dolores? Laudantium natus consectetur maiores architecto iste?</p>
+           <!----about lign1---->
+           <div class="flex gap-3  items-center">
+              <img src="/images/icon.png" alt="" class="w-4  ">
+              <p class="text-base text-color-slate-600 font-semibold dark:text-white/70 ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+           </div>
+           <!----about lign2---->
+           <div class="flex gap-3  items-center ">
+              <img src="/images/icon.png" alt="" class="w-4 ">
+              <p class="text-base text-color-slate-600 font-semibold dark:text-white/70">Omnis unde nam quia harum voluptatum itaque iste nostrum amet vero.</p>
+           </div>
+           <!----about lign3---->
+           <div class="flex gap-3  items-center ">
+              <img src="/images/icon.png" alt="" class="w-4 ">
+              <p class="text-base text-color-slate-600 font-semibold dark:text-white/70">Id quos et quidem perspiciatis similique! Rerum, natus temporibus.</p>
+           </div>
+           <a href="" class="btn1 w-fit pt-3 dark:shadow-white/30 hover:bg-blue-500">Get start</a>   
+        </div>
+        <!-----Right side img---->
+         <div class="lg:w-1/2 w-full">
+           <img src="/images/about.png" alt="" class="lg:w-[50rem] sm:w-[40rem] w-[30rem] rounded-lg  bg-cover">
+         </div>
+     </div>
+  </section>
+   <!------------------about us end------------------>
+   <!------------------services start------------------>
+  <section id="services" class="flex flex-col  gap-10  container  py-16">
+       <!------title------>
+       <div class="flex flex-col gap-1 font-semibold items-center text-center">
+        <p class="text-base  text-main dark:text-slate-500 ">Our Services</p>
+        <h2 class="text-xl text-color-slate-700 dark:text-white">Some of our services</h2>
+        <p class="text-base text-color-slate-500 font-normal dark:text-white/70 ">Easy-to-Use Accounting & Bookkeeping Features      </p>
+     </div>
+     <!---services items -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 gap-10 lg:items-start items-center  ">
+
+         <!---item 1 -->
+         <div class="flex flex-col  shadow-md shadow-shadowcolor dark:shadow-white/10  items-center bg-white dark:bg-color-slate-800 px-6  py-10 gap-2   text-center rounded-md hover:bg-indigo-50">
+            <img src="/images/ser6.png" alt="" class="w-12">               
+             <h3 class="text-lg text-color-slate-600 font-semibold dark:text-white  ">Accountings </h3>
+             <p class="text-base text-color-slate-500 dark:text-white/70 font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe accusamus nihil veritatis ad. Odit, veritatis!</p>
+          </div>
+
+        <!---item 2 -->
+        <div class="flex flex-col  shadow-md shadow-shadowcolor dark:shadow-white/10  items-center bg-main px-6 py-10  gap-2 text-center rounded-md  hover:bg-indigo-500">
+          <img src="/images/ser2.png" alt="" class="w-14"> 
+          <h3 class="text-lg text-white font-semibold">Invoices</h3>
+           <p class="text-base text-white font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe accusamus nihil veritatis ad. Odit, veritatis!</p>
+        </div>
+        <!---item 3 -->
+        <div class="flex flex-col  shadow-md shadow-shadowcolor dark:shadow-white/10  items-center bg-white dark:bg-color-slate-800 px-6  py-10 gap-2   text-center rounded-md hover:bg-indigo-50 ">
+          <img src="/images/ser3.png" alt="" class="w-14">               
+           <h3 class="text-lg text-color-slate-600 font-semibold dark:text-white">Payments</h3>
+           <p class="text-base text-color-slate-500 dark:text-white/70 font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe accusamus nihil veritatis ad. Odit, veritatis!</p>
+        </div>
+        <!---item 4 -->
+        <div class="flex flex-col  shadow-md shadow-shadowcolor  dark:shadow-white/10 items-center bg-white dark:bg-color-slate-800 px-6  py-10  gap-2   text-center rounded-md  hover:bg-indigo-50">
+         <img src="/images/ser4.png" alt="" class="w-14"> 
+            <h3 class="text-lg text-color-slate-600 font-semibold dark:text-white">Estimates  </h3>
+           <p class="text-base text-color-slate-500 dark:text-white/70 font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe accusamus nihil veritatis ad. Odit, veritatis!</p>
+        </div>
+        <!---item 5  -->
+        <div class="flex flex-col  shadow-md shadow-shadowcolor  dark:shadow-white/10 items-center bg-white dark:bg-color-slate-800 px-6  py-10   gap-2   text-center rounded-md hover:bg-indigo-50 ">
+          <img src="/images/ser5.png" alt="" class="w-12"> 
+           <h3 class="text-lg text-color-slate-600 font-semibold dark:text-white">Proposals  </h3>
+           <p class="text-base text-color-slate-500 dark:text-white/70 font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe accusamus nihil veritatis ad. Odit, veritatis!</p>
+        </div>
+        <!---item 6 -->
+        <div class="flex flex-col  shadow-md shadow-shadowcolor  dark:shadow-white/10 items-center bg-white dark:bg-color-slate-800 px-6  py-10   gap-2   text-center rounded-md hover:bg-indigo-50 ">
+           <img src="/images/ser1.png" alt="" class="w-16">        
+           <h3 class="text-lg text-color-slate-600 font-semibold dark:text-white">Reporting</h3>
+           <p class="text-base text-color-slate-500 dark:text-white/70 font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe accusamus nihil veritatis ad. Odit, veritatis!</p>
+        </div>
+     </div>
+  </section>
+   <!------------------services end------------------>
+
+
+
+   <!---customers start-->
+   <section class=" flex flex-col py-16   w-full bg-gray-200 dark:bg-color-slate-700 gap-5 items-center">
+      
+         <!------title------>
+      <div class="flex flex-col gap-1 font-semibold items-center">
+         <p class="text-base  text-main  dark:text-slate-500 ">Our Customer</p>
+         <h2 class="text-xl text-color-slate-700 dark:text-white ">Some of our costomers</h2>
+      </div>
+      <div class=" grid grid-cols-1 lg:grid-cols-5 sm:grid-cols-    :grid-cols-2  items-center gap-2  ">
+         <img src="/images/brand/logo1.png" alt="" class="w-56   p-3 ">
+         <img src="/images/brand/logo2.png" alt="" class="w-56  p-3  ">
+         <img src="/images/brand/logo3.png" alt="" class="w-56   p-3  ">
+         <img src="/images/brand/logo4.png" alt="" class="w-56   p-3  ">
+         <img src="/images/brand/logo5.png" alt="" class="w-56   p-3  ">
+      </div>
+     
+   </section>
+   <!---customers end-->
+
+   <!------------------FAQ start------------------>
+   <section  id="faq" class="flex flex-col gap-5  py-16 container items-center lg:items-start">
+     <!------title------>
+     <div class="flex flex-col gap-1 font-semibold text-center lg:text-left">
+        <p class="text-base  text-main dark:text-slate-500 ">Our FAQ</p>
+        <h2 class="text-xl text-color-slate-700 dark:text-white">Frequently asked questions</h2>
+     </div>
+     
+     <div class="w-full flex flex-col lg:flex-row gap-10 items-center ">
+        <!---left side img---->
+        <div class="xl:w-1/2 w-full  ">
+           <img src="/images/faq.svg" alt="" class="w-[50rem]  ">
+        </div>
+         <!---right side ---->
+         <div  id="faq" class="xl:w-1/2 w-full flex flex-col gap-0    py-16 container">
+         
+          <!---faq items-->
+          <div class="">
+            <div class="" x-data="{selected:1}">
+              <ul class="gap-3 bg-blue-50 ">
+                <!--faq1-->
+                <li class="relative  shadow-lg shadow-shadowcolor dark:shadow-slate-200 z-50     ">
+                  <button class="w-full rounded-md  bg-blue-50 px-8 py-6 text-left" @click="selected !==1 ? selected = 1: selected = null">
+                    <div class="flex items-center justify-between">
+                        <h3 class="text-color-slate-600 text-base  ">What are the system Requirements for M-Finance?</h3>
+                        <i class="fa-solid fa-circle-chevron-down text-main"></i>
+                     </div>
+                  </button>
+        
+                  <div class="relative max-h-0 overflow-hidden transition-all duration-500 bg-gray-50   flex  dark:bg-color-slate-700 rounded-b-md   " x-ref="container1" x-bind:style="selected==1?'max-height:'+ $refs.container1.scrollHeight + 'px':'' ">
+                    <div class="px-6 pt-5 pb-[4rem]">
+                      <p class="text-base  text-color-slate-500 dark:text-white/70 font-light">ipsum! Assumenda, dolorem nihil. Commodi, qui? Officiis provident, cumque perspiciatis magni commodi rem nihil,</p> 
+                   </div>
+                  </div>
+                </li>
+                 <!--faq2-->
+                 <li class="relative  shadow-lg shadow-shadowcolor z-40">
+                  <button class="w-full rounded-md  bg-blue-50 px-8 py-6 text-left" @click="selected !==2 ? selected = 2: selected = null">
+                    <div class="flex items-center justify-between">
+                      <h3 class="text-color-slate-600 text-base ">Can I access M-Finance online and off-line ?
+                      </h3>
+                      <i class="fa-solid fa-circle-chevron-down text-main"></i>
+                      </div>
+                  </button>
+        
+                  <div class="relative max-h-0 overflow-hidden transition-all duration-500 bg-gray-50  flex  dark:bg-color-slate-700 rounded-b-md   " x-ref="container2" x-bind:style="selected==2?'max-height:'+ $refs.container2.scrollHeight + 'px':'' ">
+                    <div class="px-6 pt-5 pb-[4rem]">
+                      <p class="text-base text-color-slate-500 dark:text-white/70 font-light">ipsum! Assumenda, dolorem nihil. Commodi, qui? Officiis provident, cumque perspiciatis magni commodi rem nihil,</p> 
+                   </div>
+                  </div>
+                </li>
+                 <!--faq3-->
+                 <li class="relative  shadow-lg   shadow-shadowcolor  z-30 ">
+                  <button class="w-full rounded-md  bg-blue-50 px-8 py-6 text-left" @click="selected !==3 ? selected = 3: selected = null">
+                    <div class="flex items-center justify-between">
+                      <h3 class="text-color-slate-600 text-base "> Is your software actually free?
+                      </h3>
+                      <i class="fa-solid fa-circle-chevron-down text-main"></i>
+                      </div>
+                  </button>
+        
+                  <div class="relative max-h-0 overflow-hidden transition-all duration-500 bg-gray-50  flex  dark:bg-color-slate-700 rounded-b-md   " x-ref="container3" x-bind:style="selected==3?'max-height:'+ $refs.container3.scrollHeight + 'px':'' ">
+                    <div class="px-6 pt-5 pb-[4rem] ">
+                      <p class="text-base text-color-slate-500 dark:text-white/70 font-light">ipsum! Assumenda, dolorem nihil. Commodi, qui? Officiis provident, cumque perspiciatis magni commodi rem nihil,</p> 
+                   </div>
+                  </div>
+                </li>
+                 <!--faq4-->
+                 <li class="relative  shadow-lg shadow-shadowcolor z-20 ">
+                  <button class="w-full rounded-md  bg-blue-50 px-8 py-6 text-left" @click="selected !==4 ? selected = 4: selected = null">
+                    <div class="flex items-center justify-between">
+                      <h3 class="text-color-slate-600 text-base "> Is my data secure when I use M-Finance?
+                      </h3>
+                      <i class="fa-solid fa-circle-chevron-down text-main"></i>
+                      </div>
+                  </button>
+        
+                  <div class="relative max-h-0 overflow-hidden transition-all duration-500 bg-gray-50  flex  dark:bg-color-slate-700 rounded-b-md   " x-ref="container4" x-bind:style="selected==4?'max-height:'+ $refs.container4.scrollHeight + 'px':'' ">
+                    <div class="px-6 pt-5 pb-[4rem]">
+                      <p class="text-base text-color-slate-500 dark:text-white/70 font-light">ipsum! Assumenda, dolorem nihil. Commodi, qui? Officiis provident, cumque perspiciatis magni commodi rem nihil,</p> 
+                   </div>
+                  </div>
+                </li>
+                <!--faq5-->
+                <li class="relative  shadow-lg shadow-shadowcolor dark:shadow-slate-500">
+                  <button class="w-full rounded-md  bg-blue-50 px-8 py-6 text-left" @click="selected !==5  ? selected = 5: selected = null">
+                    <div class="flex items-center justify-between">
+                      <h3 class="text-color-slate-600 text-base "> Do you provide customer support?
+                      </h3>
+                      <i class="fa-solid fa-circle-chevron-down text-main"></i>
+                      </div>
+                  </button>
+        
+                  <div class="relative max-h-0 overflow-hidden transition-all duration-500 bg-gray-50  flex  dark:bg-color-slate-700 rounded-b-md  dark:border-l-white" x-ref="container5" x-bind:style="selected==5?'max-height:'+ $refs.container5.scrollHeight + 'px':'' ">
+                    <div class="px-6 pt-5 pb-[4rem]">
+                      <p class="text-base text-color-slate-500 dark:text-white/70 font-light">ipsum! Assumenda, dolorem nihil. Commodi, qui? Officiis provident, cumque perspiciatis magni commodi rem nihil,</p> 
+                   </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+     </div>
+   </section>
+
+
+
+
+   
+
+
+   <!---Contact start-->
+   <section class=" flex flex-col py-16   w-full bg-gray-200 dark:bg-color-slate-700 gap-5 items-center" id="contact">
+      
+      <!------title------>
+   <div class="flex flex-col gap-1 font-semibold items-center">
+      <p class="text-base  text-main  dark:text-slate-500 ">Contact us</p>
+      <h2 class="text-xl text-color-slate-700 dark:text-white items-center ">We are here for you</h2>  
+   </div>
+
+   <form action="#" class="space-y-4 container">
+      <div>
+          <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-4 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="email" required>
+      </div>
+      <div>
+          <input type="text" id="subject" class="block p-4 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Subject" required>
+      </div>
+      <div class="sm:col-span-2">
+          <textarea id="message" rows="6" class="block p-4 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Your message"></textarea>
+      </div>
+      <button type="submit" class="w-full px-8 py-3  bg-main text-white border-2 border-white rounded-md  shadow-md shadow-shadowcolor hover:bg-white hover:text-main">Send message</button>
+  </form>
+   
+  
+</section>
+<!---Contact  end-->
+
+
+
+   <!------------------FAQ end------------------>
+   
+  <footer class="w-full flex flex-col  gap-5   pt-16 container ">
+        <div class="flex flex-col lg:flex-row  gap-10 lg:gap-56 lg:items-start items-center">
+            <div class=" lg:w-1/4  md:w-2/4 sm:w-full flex flex-col gap-5 lg:text-left text-center  ">
+                  <div class="">
+                     <h1 class="text-xxl font-bold text-color-slate-800 dark:text-white"><span class="text-white bg-main px-1 text-xxl">M</span> Finance </h1>
+                  </div>              
+                  <p class="text-base text-color-slate-500 font-normal dark:text-white/80">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+                  Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+            </div>
+
+            <div class="grid grid-cols-3 gap-10 lg:gap-56   lg:w-2/4 sm:w-full">
+               <!---links-->
+                  <div class="lg:w-1/4  md:w-2/4 sm:w-full flex flex-col gap-3  lg:items-start items-center ">
+                     <h3 class="text-lg font-semibold text-color-slate-500 dark:text-white ">Links</h3>
+                        <ul class="flex flex-col gap-2 text-color-slate-500 dark:text-white/80">
+                           <li  class="hover:text-main lg:text-left text-center"><a href="" id="features">Features</a></li>
+                           <li  class="hover:text-main lg:text-left text-center"><a href="" id="about">About Us</a></li>
+                           <li  class="hover:text-main lg:text-left text-center"><a href="" id="services">Services</a></li>
+                           <li  class="hover:text-main lg:text-left text-center"><a href="" id="portofolio">Portofolio</a></li>
+                        </ul> 
+                     </div>
+            
+                  <!---category-->
+                  <div class="lg:w-1/4  md:w-2/4 sm:w-full flex flex-col gap-3  items-center ">
+                     <h3 class="text-lg font-semibold text-color-slate-500 dark:text-white">Category</h3>
+                        <ul class="flex flex-col gap-2  text-color-slate-500 dark:text-white/80">
+                           <li  class="hover:text-main"><a href="" id="features">Features</a></li>
+                           <li  class="hover:text-main"><a href="" id="about">About Us</a></li>
+                           <li  class="hover:text-main"><a href="" id="services">Services</a></li>
+                           <li  class="hover:text-main"><a href="" id="portofolio">Portofolio</a></li>
+                        </ul> 
+                  </div>
+                  <!---category-->
+                  <div class="lg:w-1/4  md:w-2/4 sm:w-full flex flex-col gap-3  items-center ">
+                     <h3 class="text-lg font-semibold text-color-slate-500 dark:text-white">Category</h3>
+                        <ul class="flex flex-col gap-2 text-color-slate-500 dark:text-white/80">
+                           <li  class="hover:text-main"><a href="" id="features">Features</a></li>
+                           <li  class="hover:text-main"><a href="" id="about">About Us</a></li>
+                           <li  class="hover:text-main"><a href="" id="services">Services</a></li>
+                           <li  class="hover:text-main"><a href="" id="portofolio">Portofolio</a></li>
+                        </ul> 
+                  </div>
+            </div>
+        </div>
+        
+        <div class="w-full bg-color-slate-500 border"></div>
+  
+     <div class="flex flex-col lg:flex-row items-center lg:items-start gap-5 justify-between py-5 ">
+        <p class="text-base  text-color-slate-500 font-light dark:text-white/80">© Free Tailwind CSS Template from  Miadweb.com</p>
+        <div class="flex gap-3 dark:text-white/80">
+           <a href="https://facebook.com" target="_blank" > <i class="fa-brands fa-facebook w-fit bg-color-slate-600 p-3 text-white rounded-full hover:bg-main"></i> </a>
+           <a href="https://twitter.com" target="_blank" >  <i class="fa-brands fa-twitter w-fit bg-color-slate-600 p-3 text-white rounded-full hover:bg-main "></i> </a>
+            <a href="https://instagram.com" target="_blank" >  <i class="fa-brands fa-instagram w-fit bg-color-slate-600 p-3 text-white rounded-full hover:bg-main"></i> </a>
+        </div>
+     </div>
+  </footer>
+  
+ </main>
+<script>
+
+//mobil menu
+const hamburger = document.querySelector('#hamburger');
+const menu = document.querySelector('#menu');
+const links = document.querySelectorAll('#hLink');
+const faSolid =document.querySelector('.responsive');
+
+hamburger.addEventListener("click",()=>{
+   menu.classList.toggle('hidden');
+   faSolid.classList.toggle('fa-xmark');
+})
+////hLink.forEach(link => {
+   //link.addEventListener('click',() => {
+    ///  menu.classList.toggle('hidden');
+     /// faSolid.classList.toggle('fa-xmark');
+      //  })
+   //})
+
+////dark mode
+
+const dayNight = document.querySelector(".day-night");
+dayNight.addEventListener("click",()=>{
+
+dayNight.querySelector("i").classList.toggle("fa-sun");
+dayNight.querySelector("i").classList.toggle("fa-moon");
+document.body.classList.toggle("dark");
+
+ })
+ window.addEventListener("load", () => {
+     if(document.body.classList.contains("dark"))
+     {
+         dayNight.querySelector("i").classList.add("fa-sun");
+     }
+     else
+     {
+         dayNight.querySelector("i").classList.add("fa-moon");
+ 
+     }
+ })
+
+</script>
+
+</body>
+</html>
+
+

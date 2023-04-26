@@ -1,0 +1,14 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.btn1{
+    @apply px-8 py-3 bg-main text-white rounded-md shadow-md shadow-shadowcolor w-fit
+}
+.btn2{
+    @apply  px-8 py-3 bg-transparent text-main border-2 border-main rounded-md  shadow-md shadow-shadowcolor
+}
+
