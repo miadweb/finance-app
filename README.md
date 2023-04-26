@@ -2,6 +2,8 @@
 
 FREE Modern Finance home page template that supports light and dark theme, built with Tailwind CSS
 
+![Screenshot](screenshoot.png)
+
 - [Modern Landing page].
 - [Light and Dark mode].
 - [Responsive and scalable].
