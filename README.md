@@ -3,7 +3,7 @@
 FREE Modern Finance home page template that supports light and dark theme, built with Tailwind CSS
 
 <p align="center">
-<img src="dist/images/screenshoot.png" />
+    <img src="dist/images/screenshoot.png" />
 </p>
 
 - [Modern Landing page].
@@ -12,3 +12,7 @@ FREE Modern Finance home page template that supports light and dark theme, built
 - [Easy to customize].
 - Perfect for fianace app landing page.
 - [Awesome color palette and realistic shadows].
+
+## Demo
+
+[Click here for live demo](https://finance-app-hm1d.onrender.com/)
