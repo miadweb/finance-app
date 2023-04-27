@@ -11,7 +11,7 @@ FREE Modern Finance home page template that supports light and dark theme, built
 - [Responsive and scalable].
 - [Easy to customize].
 - Perfect for fianace app landing page.
-- [Awesome color palette and realistic shadows].
+- [Awesome color palette and realistic shadows]
 
 ## Demo
 
